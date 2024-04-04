@@ -4,10 +4,10 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const ejs = require("ejs");
 const session = require("express-session");
-const port = 5500;
-const admin = "jainmokshejain2005@gmail.com";
+const port = ;
+const admin = "";
 const URL =
-  "mongodb+srv://jainmokshejain2005:dbUserPassword@cluster0.jbssl0p.mongodb.net/";
+  "";
 const app = express();
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
